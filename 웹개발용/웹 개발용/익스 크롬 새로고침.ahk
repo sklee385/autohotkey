@@ -19,7 +19,8 @@ F6::
 	
 	; 익스 새로 고침
 	ControlSend, ,^ {F5}, ahk_exe iexplore.exe
-	ControlSend, Chrome_RenderWidgetHostHWND1, ^ {F5}, ahk_exe chrome.exe
+	;ControlSend, Chrome_RenderWidgetHostHWND1, ^ {F5}, ahk_exe chrome.exe
+	
 	; 파폭 새로 고침
 	ControlSend, ,^ {F5}, ahk_exe firefox.exe
 	return
